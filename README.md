@@ -5,7 +5,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
 ## Task 1: Code up the recurrent neural network (RNN)
 * This part you will learn the math behind RNNs and how to do the [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) with them.
 	* If you are not familiar with RNNs, please follow this [link](https://en.wikipedia.org/wiki/Recurrent_neural_network).
-	* In nutshell, the RNN is the backbone for many sequential modeling problems. There are many sequential modeling problems in NLP, such as language modeling, part-of-speech tagging, and named entity recogition. Many non-sequence problems can be also cast into sequence modeling problems.
+	* In a nutshell, the RNN is the backbone for many sequential modeling problems. There are many sequential modeling problems in NLP, such as language modeling, part-of-speech tagging, and named entity recogition. Many non-sequence problems can be also cast into sequence modeling problems.
 	* Here, we are going to code up the forward and backpropagation for RNNs using [Numpy](http://www.numpy.org/).
 
 * Open the [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/install.html) under the notebook folder and follow the instruction to code the RNN unit.
