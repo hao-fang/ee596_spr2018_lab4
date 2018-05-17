@@ -1,4 +1,4 @@
-# EE596 Lab 4 -- Build An Recurrent Neural Network Language Model in Python
+# EE596 Lab 4 -- Recurrent Neural Network Language Model
 
 Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fang.github.io/ee596_spr2018/)
 
