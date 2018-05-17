@@ -34,6 +34,11 @@ Now we are going to train an RNN LM on the character sequence. In other words, t
 * After the model converges, you can then test whether it can generate a sentence properly by running `./sample_rnn_lm.sh`.
 * We provide a relatively good model `pretrained_models/converged_char_lm.model` for this task. If you're not sure whether your models are good enough, you can modify the `inmodel` parameter in `sample_rnn_lm.sh` and compare the results with your models.
 
+## Task 3: Write a script to evaluate your models.
+
+Reuse the functions `eval_lm` and `batch_sgd_train` in the file `src/train_rnn_lm.py` to
+write a script for evaluating your model on a test set.
+
 ## Lab Checkoff
 * Task 1: 
 	* Show the output of your Python codes.
@@ -43,6 +48,6 @@ Now we are going to train an RNN LM on the character sequence. In other words, t
 	* Tests the model for sampling a sentence starting with a specific character.
 
 ## Lab Report
-* Please report your model perpexlity on sorting number for test set.
-* Please report your model perplexity on character LM for test set.
+* Please report the perpexlity on the provided *test* set for the sorting number model. 
+* Please report the perplexity on the provided *test* set for character LM.
 * Discuss other findings and issues.
